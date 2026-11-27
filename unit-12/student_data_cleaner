@@ -1,0 +1,15 @@
+# registraton field date
+name = "   Choicey OSARO   "
+email address = "   CHOICEYotas@gmail.com  "
+telephone number = "   090-34-65-634   "
+
+clean_name = name.strip().title()
+clean_email address = email address.strip().lower()
+clean_telephone number = telephone number.replace(",") "")
+
+print(f"Name : {clean_name)")
+print(f"Email address : {clean_email address)")
+print(f"Telephone number : {clean_telephone number)")
+
+print(f"Name length valid (>3): {len(clean_name) > 3}")
+print(f"Email address contains @: {"@" in clean_email address}")
