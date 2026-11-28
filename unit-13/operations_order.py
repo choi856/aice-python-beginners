@@ -4,7 +4,7 @@ print(f"9 * 6 + 7 = {result1}")
 
 # with brackets
 result2 = (9 * 6) + 7
-print(f"(9 *6) + 7 = {result2}")
+print(f"(9 * 6) + 7 = {result2}")
 
 # exponent before multiplication
 result3 = 9 * 6 ** 7
